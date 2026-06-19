@@ -18,10 +18,10 @@ Tecnologias e Arquitetura Aplicadas
 
 A estrutura foi planejada seguindo as melhores práticas de desenvolvimento web, dividindo responsabilidades entre marcação estrutural e folhas de estilo:
 
-* **HTML5 Semântico:** Estrutura limpa e organizada para melhor acessibilidade.
-* **Tailwind CSS (v3):** Utilizado para toda a estilização utilitária, grids dinâmicos e controle de responsividade.
-* **CSS3 Customizado (`CSS/style.css`):** Arquivo separado para estilizações específicas de efeitos de sombra pesada (`card-shadow`) e efeito neon (`icon-glow`).
-* **Componentes SVG Nativos:** Todos os ícones e elementos gráficos foram codificados diretamente em formato vetorial inline para eliminar mídias externas e garantir resiliência contra quebras de imagem.
+* **HTML** Estrutura limpa e organizada para melhor acessibilidade.
+* **Tailwind CSS:** Utilizado para toda a estilização utilitária, grids dinâmicos e controle de responsividade.
+* **CSS:** Arquivo separado para estilizações específicas de efeitos de sombra pesada (`card-shadow`) e efeito neon (`icon-glow`).
+* **Componentes SVG:** Todos os ícones e elementos gráficos foram codificados diretamente em formato vetorial inline para eliminar mídias externas e garantir resiliência contra quebras de imagem.
 
 ---
 
