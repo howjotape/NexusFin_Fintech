@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusFin - Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-[#a3ff33] min-h-screen flex flex-col">
+
+    <nav class="bg-[#2a2a2a] px-6 py-4 flex justify-between items-center shadow-xl">
+        <div class="flex items-center gap-3">
+            <div class="relative w-9 h-9 flex flex-col justify-between">
+                <div class="w-full h-[65%] bg-[#a3ff33] rounded-br-[14px]"></div>
+                <div class="flex justify-between w-full h-[28%]">
+                    <div class="w-[35%] h-full bg-[#a3ff33] rounded-tr-[8px]"></div>
+                    <div class="w-[55%] h-full bg-[#a3ff33]"></div>
+                </div>
+            </div>
+            <h1 class="text-white text-3xl font-bold tracking-tight font-sans">
+                nexus<span class="text-[#a3ff33]">fin</span>
+            </h1>
+        </div>
+
+        <div class="bg-[#3a3a3a] flex items-center gap-4 px-4 py-2 rounded-full border border-gray-600">
+            <div class="flex items-center gap-2 pr-3 border-r border-gray-500">
+                
+                <div class="w-8 h-8 rounded-full bg-zinc-600 flex items-center justify-center text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </div>
+                <span class="text-white text-sm font-medium hidden sm:block">João Pedro</span>
+            </div>
+            <div class="flex gap-4 px-1 items-center">
+                <div class="relative cursor-pointer">
+                    <div class="w-2 h-2 bg-[#a3ff33] rounded-full absolute top-0 right-0"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 hover:text-[#a3ff33]"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
+                </div>
+                <div class="cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 hover:text-[#a3ff33]"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.1a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-grow flex items-center justify-center p-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl w-full">
+            
+         
+            <div class="bg-[#2a2a2a] rounded-[50px] h-[500px] flex flex-col items-center justify-between p-10 card-shadow transition-transform hover:scale-105 duration-300">
+                <div class="w-20 h-20 bg-[#1e1e1e] rounded-full flex items-center justify-center icon-glow mt-4">
+                  
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white opacity-90"><path d="M21 12V7H5a2 2 0 0 1 2-2h14v2"/><path d="M3 11v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z"/><circle cx="16" cy="15" r="1"/></svg>
+                </div>
+                
+                <div class="w-full bg-[#3a3a3a] rounded-[30px] p-6 text-center border border-gray-600">
+                    <h2 class="text-white text-xl font-bold tracking-widest mb-2">REGISTRO</h2>
+                    <p class="text-gray-400 text-xs uppercase tracking-tight">Lançamento de lucros e despesas</p>
+                </div>
+            </div>
+
+         
+            <div class="bg-[#2a2a2a] rounded-[50px] h-[500px] flex flex-col items-center justify-between p-10 card-shadow transition-transform hover:scale-105 duration-300">
+                <div class="w-20 h-20 bg-[#1e1e1e] rounded-full flex items-center justify-center icon-glow mt-4">
+                   
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white opacity-90"><line x1="3" y1="21" x2="21" y2="21"/><line x1="6" y1="14" x2="6" y2="18"/><line x1="10" y1="14" x2="10" y2="18"/><line x1="14" y1="14" x2="14" y2="18"/><line x1="18" y1="14" x2="18" y2="18"/><path d="M3 11l9-7 9 7H3z"/></svg>
+                </div>
+                
+                <div class="w-full bg-[#3a3a3a] rounded-[30px] p-6 text-center border border-gray-600">
+                    <h2 class="text-white text-xl font-bold tracking-widest mb-2">BANCO</h2>
+                    <p class="text-gray-400 text-xs uppercase tracking-tight">Acesso as API`s bancárias</p>
+                </div>
+            </div>
+
+            <div class="bg-[#2a2a2a] rounded-[50px] h-[500px] flex flex-col items-center justify-between p-10 card-shadow transition-transform hover:scale-105 duration-300">
+                <div class="w-20 h-20 bg-[#1e1e1e] rounded-full flex items-center justify-center icon-glow mt-4">
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white opacity-90"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                </div>
+                
+                <div class="w-full bg-[#3a3a3a] rounded-[30px] p-6 text-center border border-gray-600">
+                    <h2 class="text-white text-xl font-bold tracking-widest mb-2">ANÁLISE</h2>
+                    <p class="text-gray-400 text-xs uppercase tracking-tight">Relatórios Financeiros</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>
